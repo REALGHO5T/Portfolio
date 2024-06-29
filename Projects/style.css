@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #050609;
+  overflow-x: hidden;
+}
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vh;
+  margin-top: 5vh;
+}
+.project {
+  height: 80vh;
+  flex: auto;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#26262a, #26262a);
+}
+.project img {
+  height: 95%;
+  width: 95%;
+  object-fit: cover;
+  object-position: top;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #54575c;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2885;
+}
