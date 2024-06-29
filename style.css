@@ -625,7 +625,7 @@ i:hover {
     font-size: 0.3rem;
   }
   .hero .text {
-    font-size:3.8rem ;
+    font-size:4rem ;
     letter-spacing: -7px;
     height: 70px;
     line-height: 50px;
@@ -647,7 +647,7 @@ i:hover {
     line-height: 50px;
   }
   :is(.about-text, .service-content, .contact-text) p {
-    font-size: 0.4rem;
+    font-size: 0.7rem;
   }
   .service {
     height: 30vh;
