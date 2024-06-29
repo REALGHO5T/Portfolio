@@ -631,7 +631,7 @@ i:hover {
     line-height: 50px;
   }
   .hero-section{
-    height: 50vh;
+    height: 30vh;
   }
   #text2 {
     margin-left: 4vh;
@@ -659,7 +659,7 @@ i:hover {
     height: 30vh;
   }
   .btn p a{
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
   .contact i {
     font-size: 1.4rem;
