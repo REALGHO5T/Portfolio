@@ -93,6 +93,6 @@ function pageview() {
 function smoothscroll() {
   const locomotiveScroll = new LocomotiveScroll();
 }
-// pageanimation()
-// smoothscroll();
-// pageview();
+pageanimation()
+smoothscroll();
+pageview();

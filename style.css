@@ -607,6 +607,9 @@ i:hover {
   .service-content h1{
     font-size: 0.8rem;
   }
+  .project-section {
+    margin-top: 5vh;
+  }
   .project{
     height: 30vh;
   }
@@ -631,10 +634,10 @@ i:hover {
     line-height: 50px;
   }
   .hero-section{
-    height: 30vh;
+    height: 40vh;
   }
   #text2 {
-    margin-left: 4vh;
+    margin-left: 2vh;
   }
   .platform-section {
     height: 5vh;
@@ -642,12 +645,16 @@ i:hover {
   .platform-section i{
     font-size: 1.2rem;
   }
+  #about-section{
+    /* height: 40vh; */
+    margin: 5vh 2vh;
+  }
   :is(.about-text, .service-text, .project-text, .contact-text) h1 {
     font-size: 1.2rem;
     line-height: 50px;
   }
   :is(.about-text, .service-content, .contact-text) p {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   .service {
     height: 30vh;
@@ -656,7 +663,7 @@ i:hover {
     font-size: 0.6rem;
   }
   .project{
-    height: 30vh;
+    height: 20vh;
   }
   .btn p a{
     font-size: 0.6rem;
@@ -667,4 +674,5 @@ i:hover {
   .contact-section > p{
     font-size: 0.4rem;
   }
+  
 }
