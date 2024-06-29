@@ -623,7 +623,7 @@ i:hover {
     font-size: 0.4rem;
   }
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:375px) {
   .logo{
     font-size: 0.3rem;
   }
