@@ -573,7 +573,7 @@ i:hover {
   }
 
 }
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
   .logo{
     font-size: 0.3rem;
   }
@@ -622,13 +622,13 @@ i:hover {
   .contact-section > p{
     font-size: 0.4rem;
   }
-}
-@media screen and (max-width:375px) {
+} */
+@media screen and (max-width:400px) {
   .logo{
     font-size: 0.3rem;
   }
   .hero .text {
-    font-size:4rem ;
+    font-size:4.4rem ;
     letter-spacing: -7px;
     height: 70px;
     line-height: 50px;
@@ -637,7 +637,7 @@ i:hover {
     height: 40vh;
   }
   #text2 {
-    margin-left: 2vh;
+    margin-left: 1.5vh;
   }
   .platform-section {
     height: 5vh;
