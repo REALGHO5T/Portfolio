@@ -417,7 +417,7 @@ i:hover {
   }
   .contact-text h1 {line-height: 70px;}
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   header ul {
     gap: 8vh;
   }
@@ -425,7 +425,7 @@ i:hover {
     height: 90vh;
    }
   .hero .text {
-    font-size: 9.5rem;
+    font-size: 10.5rem;
     line-height: 150px;
     height: 150px;
     letter-spacing: -15px;
@@ -623,7 +623,7 @@ i:hover {
     font-size: 0.4rem;
   }
 } */
-@media screen and (max-width:400px) {
+@media screen and (max-width:472px) {
   .logo{
     font-size: 0.3rem;
   }
