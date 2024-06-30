@@ -17,12 +17,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 2vh;
+  justify-content: center;
   margin-top: 5vh;
 }
 .project {
   height: 80vh;
-  flex: auto;
-  width: 40%;
+  /* flex: auto; */
+  width: 49%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,4 +48,21 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #2885;
+}
+
+@media screen and (max-width:1300px) {
+  .project {
+    height: 70vh;
+  }
+}
+@media screen and (max-width:1024px) {
+  .project {
+    height: 60vh;
+  }
+}
+@media screen and (max-width:600px) {
+  .project {
+    height: 60vh;
+    width: 90%;
+  }
 }
