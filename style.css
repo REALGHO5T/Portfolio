@@ -24,10 +24,10 @@ body {
   background-color: #050609;
   overflow-x: hidden;
 }
-p {
+/* p {
   text-shadow: 1px 1px 5px #9aa3b1;
   font-size: 1rem;
-}
+} */
 
 /* HEADER  */
 
@@ -85,7 +85,7 @@ ul li a:hover::after {
   outline: none;
   font-size: 1.2rem;
   cursor: pointer;
-  transition: all 0.4s ease-in;
+  transition: all 0.2s ease-in;
 }
 .theme:hover{
   background-color: #fff;
@@ -227,7 +227,7 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 5vh;
+  gap: 2vh;
 }
 .service {
   background: linear-gradient(#222425, #15151a, #050609);
@@ -261,6 +261,10 @@ i {
   color: white;
   font-family: "Futura";
   font-weight: 300;
+}
+.service-content p{
+  font-size: 1.2rem;
+  letter-spacing: -1px;
 }
 
 /*PROJECT SECTION  */
@@ -494,15 +498,18 @@ i:hover {
 @media screen and (max-width:800px) {
   
   .hero-section {
-    height: 80vh;
+    height: 60vh;
    }
    .hero .text {
-    font-size: 8.5rem;
+    font-size: 7.7rem;
     line-height: 100px;
     height: 120px;
   }
-  #about-section{
-    /* height: 50vh; */
+  .theme, header ul {
+    display: none;
+  }
+  #text2{
+    margin-left: 2vh;
   }
   .about{
     flex-direction: column;
@@ -523,7 +530,9 @@ i:hover {
   }
   .about-text{
     width: 80%;
-
+  }
+  .service{
+    height: 40vh;
   }
   .service-section{
     margin-top: 10vh;
@@ -535,6 +544,9 @@ i:hover {
   :is(.about-text, .service-content, .contact-text) p {
     font-size: 1rem;
     line-height: 20px;
+  }
+  .project{
+    height: 45vh;
   }
   .service-content h1{
     font-size: 1.5rem;
