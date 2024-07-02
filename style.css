@@ -78,12 +78,18 @@ ul li a:hover::after {
   width: 100%;
 }
 .theme{
-  background-color: #050609;
+  background-color: transparent;
   padding: 5px 10px;
-  border: 1px solid white;
+  border: 0.5px solid white;
   border-radius: 10px;
   outline: none;
   font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+.theme:hover{
+  background-color: #fff;
+  color: black;
 }
 
 /* HERO SECTION */
@@ -603,7 +609,7 @@ i:hover {
     height: 90px;
   }
   .hero-section{
-    height: 60vh;
+    height: 40vh;
   }
   #text2 {
     margin-left: 2vh;
@@ -658,7 +664,7 @@ i:hover {
     line-height: 50px;
   }
   .hero-section{
-    height: 50vh;
+    height: 30vh;
   }
   #text2 {
     margin-left: 1.5vh;
@@ -685,7 +691,7 @@ i:hover {
     font-size: 0.5rem;
   }
   .service {
-    height: 30vh;
+    height: 20vh;
   }
   .service-content h1{
     font-size: 0.6rem;
@@ -709,7 +715,7 @@ i:hover {
 }
 @media screen and (max-width:330px) {
   .hero .text {
-    font-size: 3.8rem;
+    font-size: 5rem;
   }
   .service-content p {
     font-size: 0.3rem;
