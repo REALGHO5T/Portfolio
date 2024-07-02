@@ -63,6 +63,7 @@ function pageanimation() {
       y: 100,
       opacity: 0,
       duration: 1,
+      stagger:0.3
     },
     "<"
   );
